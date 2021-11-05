@@ -10,6 +10,9 @@ import { stripe } from "../services/stripe";
 // 2. Server-side
 // 3. Static-Side-Generation
 
+//Conteudo (SSG)
+// Comentarios  (Client-side)
+
 interface HomeProps {
   product: {
     priceId: string;
